@@ -1,0 +1,27 @@
+<?= $this->extend('base.html') ?>
+
+<?= $this->section('title') ?> Gentelella Alela! |  <?= $this->endSection() ?>
+
+<?= $this->section('stylesheet') ?>
+    <!-- jQuery custom content scroller -->
+    <link href="../vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+
+<?= $this->endSection() ?>
+<?= $this->section('menu_fixed') ?> menu_fixed<?= $this->endSection() ?>
+<?= $this->section('content') ?>
+<div class="right_col" role="main">
+  <div class="">
+    <div class="page-title">
+      <div class="title_left">
+        <h3>Fixed Sidebar <small> Just add class <strong>menu_fixed</strong></small></h3>
+      </div>
+    </div>
+  </div>
+</div>
+<?= $this->endSection() ?>
+
+<?= $this->section('js') ?>
+    <!-- jQuery custom content scroller -->
+    <script src="../vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<?= $this->endSection() ?>
